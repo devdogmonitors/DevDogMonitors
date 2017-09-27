@@ -9,9 +9,9 @@ html {
     -webkit-font-smoothing: antialiased !important;
 }
 body {
-    color:#767676;
+    color:#656565;
     background:#f1f2f7;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
     padding:0px !important;
     margin:0px !important;
     font-size:13px;
@@ -69,7 +69,7 @@ a,a:hover,a:focus {
     font-size:18px;
     text-transform:uppercase;
     font-weight:300;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
     border-bottom:10px solid #a0b87e;
 }
 .form-signin .checkbox {
@@ -80,7 +80,7 @@ a,a:hover,a:focus {
     font-weight:normal;
     color:#b6b6b6;
     font-weight:300;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 .form-signin .form-control {
     position:relative;
@@ -107,7 +107,7 @@ a,a:hover,a:focus {
     color:#fff;
     text-transform:uppercase;
     font-weight:300;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
     margin:20px 0 5px;
 }
 .form-signin p {
@@ -145,7 +145,7 @@ a,a:hover,a:focus {
     width:240px;
     height:100%;
     position:fixed;
-    background:#32323a;
+    background:#2a3f54;
     -webkit-transition:all .3s ease-in-out;
     -moz-transition:all .3s ease-in-out;
     -o-transition:all .3s ease-in-out;
@@ -263,11 +263,11 @@ ul.sidebar-menu li a span {
     display:inline-block;
 }
 ul.sidebar-menu li a {
-    color:#aeb2b7;
+    color:#e4e4e4;
     text-decoration:none;
     display:block;
     padding:10px 0 10px 25px;
-    font-size:12px;
+    font-size:13px;
     outline:none;
     -webkit-transition:all 0.3s ease;
     -moz-transition:all 0.3s ease;
@@ -276,8 +276,8 @@ ul.sidebar-menu li a {
     transition:all 0.3s ease;
 }
 ul.sidebar-menu li a.active,ul.sidebar-menu li a:hover,ul.sidebar-menu li a:focus {
-    background:#28282e;
-    color:#4997b7;
+    background:#334a61;
+    color:#fff;
     display:block;
     -webkit-transition:all 0.3s ease;
     -moz-transition:all 0.3s ease;
@@ -290,10 +290,10 @@ ul.sidebar-menu li a i {
     padding-right:6px;
 }
 ul.sidebar-menu li a:hover i,ul.sidebar-menu li a:focus i {
-    color:#4997b7;
+    color:#e4e4e4;
 }
 ul.sidebar-menu li a.active i {
-    color:#4997b7;
+    color:#fff;
 }
 .mail-info,.mail-info:hover {
     margin:-3px 6px 0 0;
@@ -2062,7 +2062,7 @@ ul.labels-info li a i {
     color: #32323a;
 }
 .table-inbox tr a {
-    color: #767676;
+    color: #656565;
 }
 
 ul.inbox-pagination {
@@ -2137,11 +2137,11 @@ ul.inbox-pagination li {
 }
 .modal-header h4.modal-title {
     font-weight:300;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 .modal-body label {
     font-weight:400;
-    font-family: 'Open Sans',sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 
 .compose-mail {
@@ -2248,7 +2248,7 @@ ul.inbox-pagination li {
 
 .attachment-mail ul li a.name span {
     float: right;
-    color: #767676;
+    color: #656565;
 }
 
 /*404 page*/
@@ -2587,11 +2587,12 @@ ul.inbox-pagination li {
 }
 /*profile contact*/
 .prf-contacts h2 {
-          color: #4997b7;
-    font-size: 14px;
+          color: #052c55;
+    font-size: 13px;
     margin-top: 0;
     text-transform: uppercase;
     font-weight: 700;
+	margin-bottom: 12px;
 }
 .prf-contacts h2 span {
     width:40px;
@@ -3142,7 +3143,7 @@ input:focus:invalid:focus,textarea:focus:invalid:focus,select:focus:invalid:focu
     background:#41CAC0;
 }
 .daterangepicker .calendar th,.daterangepicker .calendar td {
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-weight:300;
     text-align:center;
     white-space:nowrap;
@@ -3897,7 +3898,7 @@ span.customSelect.changed {
     margin:0;
     overflow:hidden;
     font-weight:normal;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 #headerLeft h2 {
     font-size:2.6em;
@@ -4800,7 +4801,7 @@ div.tagsinput span.tag {
     color:#6d6d6d;
     text-transform:uppercase;
     padding:40px 30px;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-weight:600;
 }
 .region-earning-stats span {
@@ -4810,7 +4811,7 @@ div.tagsinput span.tag {
 }
 .location-earning-stats {
     text-align:center;
-    font-family:'Open Sans',sans-serif;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-weight:600;
     margin-bottom:30px;
     padding-left: 0;
