@@ -25,6 +25,9 @@
 
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="sidebar-collapse">
+			<div class="logo">
+				<a href="#"><img src="img/logo_edit.png"/></a>
+			</div>
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element"> <span>
@@ -174,7 +177,7 @@
         <div class="wrapper wrapper-content">
                 <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-sm-12 nopaddingleft nopaddingright">
-                    <h2>Add Project</h2>
+                    <h2 class="addproject-heading">Add Project</h2>
                     <ol class="breadcrumb">
                         <li>
                             <a href="index.html">Dashboard</a>
@@ -190,10 +193,11 @@
 				<div class="col-md-12 nopaddingleft nopaddingright">
 					<div class="ibox float-e-margins addproject">
                             <div class="ibox-title">
-                                <h3>Add Project</h3>
+                                <h5>Add Project</h5>
                             </div>
                             <div class="ibox-content">
-                                <form class="form col-md-6" action="#">
+                                <form class="form" action="#">
+								<div class="col-md-6">
 									<h3>Project Details</h3>
 									<fieldset class="form-fieldset ui-input __first">
 									  <input type="text" id="username" tabindex="0" />
@@ -216,8 +220,8 @@
 										<span data-text="tags (Optional)">Tags (Optional)</span>
 									  </label>
 									</fieldset>
-								  </form>
-								  <form class="form col-md-6" action="#">
+								 </div>
+								 <div class="col-md-6">
 									<h3>Send Scan Results To</h3>
 									<fieldset class="form-fieldset ui-input __first" id="Email">
 									  <input type="text" tabindex="0" />
@@ -227,6 +231,7 @@
 									  </label>
 									</fieldset>
 									<div class="emailadd"></div>
+									</div>
 								  </form>
 								  <div class="clearfix"></div>
 								  <hr class="custom-hr"/>
