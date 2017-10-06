@@ -199,37 +199,41 @@
                                 <form class="form" action="#">
 								<div class="col-md-6">
 									<h3>Project Details</h3>
-									<fieldset class="form-fieldset ui-input __first">
-									  <input type="text" id="username" tabindex="0" />
-									  <label for="projectname">
-										<span data-text="project name">Project Name</span>
-									  </label>
-									</fieldset>
-									
-									<fieldset class="form-fieldset ui-input __second">
-							
-									  <textarea rows="4"></textarea>
-									  <label for="description">
-										<span data-text="description">Description</span>
-									  </label>
-									</fieldset>
-									
-									<fieldset class="form-fieldset ui-input __third">
-									  <textarea rows="4"></textarea>
-									  <label for="tags (Optional)">
-										<span data-text="tags (Optional)">Tags (Optional)</span>
-									  </label>
-									</fieldset>
+									<span class="input input--hoshi">
+										<input class="input__field input__field--hoshi" type="text" id="input-4" />
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+											<span class="input__label-content input__label-content--hoshi">Project Name</span>
+										</label>
+									</span>
+									<span class="input input--hoshi txr-area-top">
+										<textarea class="input__field input__field--hoshi" rows="3" id="input-5"></textarea>
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+											<span class="input__label-content input__label-content--hoshi">Description</span>
+										</label>
+									</span>
+									<span class="input input--hoshi txr-area-top">
+										<textarea class="input__field input__field--hoshi" rows="3" id="input-6"></textarea>
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-6">
+											<span class="input__label-content input__label-content--hoshi">Tags (Optional)</span>
+										</label>
+									</span>
 								 </div>
 								 <div class="col-md-6">
 									<h3>Send Scan Results To</h3>
-									<fieldset class="form-fieldset ui-input __first" id="Email">
-									  <input type="text" tabindex="0" />
-									  <label for="Email">
-										<span data-text="Email">Email</span>
-										<i class="fa fa-plus btn-custom somebutton"></i>
-									  </label>
-									</fieldset>
+									<!-- <span class="input input--hoshi" id="Email">
+										<input class="input__field input__field--hoshi" type="text" id="input-7" />
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-7">
+											<span class="input__label-content input__label-content--hoshi">Email</span>
+											<i class="fa fa-plus btn-custom somebutton"></i>
+										</label>
+									</span> -->
+									<span class="input input--hoshi">
+										<input class="input__field input__field--hoshi" type="text" id="input-4" />
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+											<span class="input__label-content input__label-content--hoshi">Email</span>
+											<i class="fa fa-plus btn-custom somebutton email-icon"></i>
+										</label>
+									</span>
 									<div class="emailadd"></div>
 									</div>
 								  </form>
@@ -293,7 +297,7 @@
     <script src="js/plugins/pace/pace.min.js"></script>
 	<script>
 	$(".somebutton").click(function () {
-	  $(".emailadd").append('<fieldset class="form-fieldset ui-input __first" id="Email"><input type="text" tabindex="0" /><label for="Email"><span data-text="Email">Email</span><i class="fa fa-plus btn-custom"></i></label></fieldset>');
+	  $(".emailadd").append('<fieldset class="form-fieldset ui-input __first" id="Email"><input type="text" placeholder="Email" tabindex="0" /><i class="fa fa-plus btn-custom"></i></fieldset>');
 	});
 </script>
 <script>
