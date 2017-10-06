@@ -73,7 +73,7 @@
 .input__field {
 	position: relative;
 	display: block;
-	padding: 13px 0px;
+	padding: 13px 0px 17px 0;
 	width: 60%;
 	border: none;
 	border-radius: 0;
