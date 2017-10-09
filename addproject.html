@@ -197,9 +197,21 @@
                             </div>
                             <div class="ibox-content">
                                 <form class="form" action="#">
-								<div class="col-md-6">
+								<div class="col-md-6 col-sm-6 col-md-6">
 									<h3>Project Details</h3>
-									<span class="input input--hoshi">
+									<div class="form-group">
+										<label for="inputsm">Project Name</label>
+										<input class="form-control input-sm" id="inputsm" type="text">
+									  </div>
+									  <div class="form-group">
+										  <label for="comment">Description</label>
+										  <textarea class="form-control" rows="2" id="comment"></textarea>
+										</div>
+										<div class="form-group">
+										  <label for="comment">Tags (Optional)</label>
+										  <textarea class="form-control" rows="2" id="comment"></textarea>
+										</div>
+									<!-- <span class="input input--hoshi">
 										<input class="input__field input__field--hoshi" type="text" id="input-4" />
 										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
 											<span class="input__label-content input__label-content--hoshi">Project Name</span>
@@ -216,9 +228,9 @@
 										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-6">
 											<span class="input__label-content input__label-content--hoshi">Tags (Optional)</span>
 										</label>
-									</span>
+									</span> -->
 								 </div>
-								 <div class="col-md-6">
+								 <div class="col-md-6 col-sm-6 col-md-6">
 									<h3>Send Scan Results To</h3>
 									<!-- <span class="input input--hoshi" id="Email">
 										<input class="input__field input__field--hoshi" type="text" id="input-7" />
@@ -227,22 +239,28 @@
 											<i class="fa fa-plus btn-custom somebutton"></i>
 										</label>
 									</span> -->
-									<span class="input input--hoshi">
+									<!-- <span class="input input--hoshi">
 										<input class="input__field input__field--hoshi" type="text" id="input-4" />
 										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
 											<span class="input__label-content input__label-content--hoshi">Email</span>
 											<i class="fa fa-plus btn-custom somebutton email-icon"></i>
 										</label>
-									</span>
+									</span> -->
+									<div class="form-group">
+										<label for="inputsm">Email</label>
+										<input class="form-control input-sm" id="inputsm" type="text">
+										<i class="fa fa-plus btn-custom somebutton email-icon"></i>
+									  </div>
 									<div class="emailadd"></div>
 									</div>
 								  </form>
 								  <div class="clearfix"></div>
 								  <hr class="custom-hr"/>
-								  <div class="col-md-8">
-									<div class="form-group">
+								  <div class="row">
+								  <div class="col-md-10 col-sm-7 col-lg-8">
+									<div class="form-group upload-width">
 										<input type="file" name="img[]" class="file">
-										<div class="input-group col-xs-7">
+										<div class="input-group col-md-7 col-xs-12">
 										  <span class="input-group-addon"><i class="fa fa-file"></i></span>
 										  <input type="text" class="form-control input-md" disabled placeholder="Upload File">
 										  <span class="input-group-btn">
@@ -251,29 +269,32 @@
 										</div>
 									</div>
 								  </div>
+								  </div>
+								  <div class="row">
 								  <div class="col-md-12 img-gallery">
 										<h3>Connect Source Code Repository(Comming soon)</h3>
-										<div class="col-md-1 custom-img">
+										<div class="col-md-1 col-sm-1 col-xs-1 custom-img">
 											<img src="img/github-logo.png" class="img-responsive"/>
 										</div>
-										<div class="col-md-1 custom-img">
+										<div class="col-md-1 col-sm-1 col-xs-1 custom-img">
 											<img src="img/bitbucket_rgb_slate.png" class="img-responsive"/>
 										</div>
-										<div class="col-md-1 custom-img">
+										<div class="col-md-1 col-sm-1 col-xs-1 custom-img">
 											<img src="img/starteam.png" class="img-responsive"/>
 										</div>
-										<div class="col-md-1 custom-img">
+										<div class="col-md-1 col-sm-1 col-xs-1 custom-img">
 											<img src="img/subversion.png" class="img-responsive"/>
 										</div>
-										<div class="col-md-1 custom-img">
+										<div class="col-md-1 col-sm-1 col-xs-1 custom-img">
 											<img src="img/mercurial.png" class="img-responsive"/>
 										</div>
-										<div class="col-md-1 custom-img">
+										<div class="col-md-1 col-sm-1 col-xs-1 custom-img">
 											<img src="img/perforce.png" class="img-responsive"/>
 										</div>
-										<div class="col-md-1 custom-img">
+										<div class="col-md-1 col-sm-1 col-xs-1 custom-img">
 											<img src="img/other.png" class="img-responsive"/>
 										</div>
+								  </div>
 								  </div>
 								  <div class="col-md-12 text-center center-block">
 									  <button class="btn save-btn">Save</button>
@@ -297,7 +318,7 @@
     <script src="js/plugins/pace/pace.min.js"></script>
 	<script>
 	$(".somebutton").click(function () {
-	  $(".emailadd").append('<fieldset class="form-fieldset ui-input __first" id="Email"><input type="text" placeholder="Email" tabindex="0" /><i class="fa fa-plus btn-custom"></i></fieldset>');
+	  $(".emailadd").append('<div class="form-group"><label for="inputsm">Project Name</label><input class="form-control input-sm" id="inputsm" type="text"><i class="fa fa-plus btn-custom somebutton email-icon"></i> </div>');
 	});
 </script>
 <script>
