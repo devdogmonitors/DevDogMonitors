@@ -717,3 +717,12 @@ body.mini-navbar .navbar-default .nav > li > a span{
 .table-striped>tbody>tr:nth-of-type(odd) {
     background-color: #efefef;
 }
+.pace .pace-progress {
+    background: #2dc3e8;
+    position: fixed;
+    z-index: 2040;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
