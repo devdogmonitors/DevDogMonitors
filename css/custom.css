@@ -352,9 +352,11 @@
 }
 
 .devdog-login label {
-  font-size: 13px;
-  text-transform: uppercase; font-weight:600; margin-top:5px;
-  color: #2dc3e8;
+    font-size: 13px;
+    text-transform: inherit;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #676a6c;
 }
 
 .devdog-login input ~ label {
@@ -503,7 +505,11 @@
           transform: translateX(100%);
 }
 
-.devdog-login a{margin-top:5px; margin-bottom:10px; color:#2dc3e8;}
+.devdog-login a {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #676a6c;
+}
 .devdog-login button {background-color:#2dc3e8; color:#fff; padding:10px 30px; border:none;}
 
 /* 05-10-17 CSS */
@@ -682,3 +688,24 @@ body.mini-navbar .navbar-default .nav > li > a span{
 }
 }
 .img-gallery img {margin-bottom:5px;}
+.prj-table {border:1px solid #2dc3e8;}
+.prj-table thead{background-color:#2dc3e8 !important;}
+.prj-table thead tr th {color:#fff;padding:5px;font-weight:normal;}
+.prj-table tbody tr td {padding:5px;font-weight:normal;}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #efefef;
+}
+.prj-table-2 {border:1px solid #c5c5c5;}
+.prj-table-2 thead{background-color:#2dc3e8 !important;}
+.prj-table-2 thead tr th {color:#fff;padding:5px;font-weight:normal;}
+.prj-table-2 tbody tr td {padding:5px;font-weight:normal;border-top:1px solid #c5c5c5;}
+.prj-table-2 tbody tr td {padding:5px;font-weight:normal;border-top:1px solid #c5c5c5;}
+.prj-table-2 tbody tr td {padding:5px;font-weight:normal;border-top:1px solid #c5c5c5;}
+
+.prj-table-3 {border:1px solid #c5c5c5;}
+.prj-table-3 thead {border-bottom:2px solid #ccc;}
+.prj-table-3 thead tr th:nth-child(odd) {color:#2dc3e8;padding:5px;font-weight:bold;background-color:#efefef !important;}
+.prj-table-3 thead tr th:nth-child(even) {color:#2dc3e8;padding:5px;font-weight:bold;background-color:#fff !important;}
+.prj-table-3 tbody tr td {padding:5px;font-weight:normal;border-top:1px solid #c5c5c5;}
+.prj-table-3 tbody tr td:nth-child(odd) {padding:5px;font-weight:normal;border-top:1px solid #c5c5c5;background-color:#efefef !important;}
+.prj-table-3 tbody tr td:nth-child(even) {padding:5px;font-weight:normal;border-top:1px solid #c5c5c5;background-color:#fff !important;}
