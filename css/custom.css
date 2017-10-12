@@ -614,6 +614,10 @@ textarea{resize:none !important}
     width: 65px;
     height: 65px;
 }
+.reg-acc{
+    font-size: 12px !important;
+    text-align: right;
+}
 
 }
 @media only screen and (max-width: 424px) and (min-width: 375px){
@@ -683,6 +687,8 @@ body.mini-navbar .navbar-default .nav > li > a span{
 .navbar-right {
     float: right!important;
 }
+.register .gridl {padding-right:0px !important;}
+.register .gridr {padding-left:0px !important;}
 }
 @media only screen and (max-width: 1600px) and (min-width: 1024px){
 	.navbar-minimalize {display:none !important;}
@@ -740,3 +746,15 @@ body.mini-navbar .navbar-default .nav > li > a span{
 .feed-activity-list .feed-element {
     border-bottom: none;
 }
+/*registration*/
+.reg-box {
+    max-width: 580px !important;
+}
+.reg-acc{
+    font-size: 12px !important;
+    text-align: right;
+}
+.reg-acc a {text-decoration:underline}
+.register .field {margin-bottom:10px;}
+.register .gridl {padding-left:0px;}
+.register .gridr {padding-right:0px;}
