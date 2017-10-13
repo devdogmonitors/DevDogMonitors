@@ -453,8 +453,8 @@
   content: "";
 }
 .devdog-login input[type="submit"]:focus, .devdog-login button:focus {
-  border-color: #2dc3e8;
-  background-color: #2dc3e8;
+  border-color: #202e47;
+  background-color: #202e47;
 }
 
 .devdog-login input[type="submit"]:focus::after, .devdog-login input[type="submit"]:focus::before, .devdog-login button:focus::after, .devdog-login button:focus::before {
