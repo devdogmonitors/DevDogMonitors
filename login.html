@@ -42,7 +42,7 @@
 					<input id='checkme' type='checkbox'>
 				  </div>
 				  <div class='field col-md-12 col-sm-12 col-xs-12 nopaddingright nopaddingleft'>
-					<a href="#" class="pull-left">Forgot Password?</a>
+					<a href="#" data-toggle="modal" data-target="#ForgotPwd" class="pull-left">Forgot Password?</a>
 					<a href="registration.html" class="pull-right">Register?</a>
 				  </div>
 				  <div class='field form-actions col-md-12'>
@@ -50,7 +50,26 @@
 				  </div>
 				</form>
     </div>
-
+	
+	<div class="modal inmodal" id="ForgotPwd" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                                    <div class="modal-content animated flipInY">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h4 class="modal-title">Forgot Password</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>If you forgotten your password you can reset here...</h4>
+			<form action="login.html">
+				<div class="form-group">
+					<input placeholder="Email" class="form-control" type="email">
+				</div>
+				<button type="submit" class="custom-btn center-block">Submit</button>
+			</form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
     <!-- Mainly scripts -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -456,6 +456,7 @@
   border-color: #2dc3e8;
   background-color: #2dc3e8;
 }
+
 .devdog-login input[type="submit"]:focus::after, .devdog-login input[type="submit"]:focus::before, .devdog-login button:focus::after, .devdog-login button:focus::before {
   opacity: 1;
 }
@@ -758,3 +759,18 @@ body.mini-navbar .navbar-default .nav > li > a span{
 .register .field {margin-bottom:10px;}
 .register .gridl {padding-left:0px;}
 .register .gridr {padding-right:0px;}
+
+/* 12-10-17 CSS */
+.custom-btn {background-color:#2dc3e8; color:#fff; padding:10px 30px; border:none;}
+#ForgotPwd .modal-header h4 {font-size:16px; font-weight:600;}
+
+.custom-btn:focus {
+  border-color: #2dc3e8;
+  background-color: #2dc3e8;
+}
+
+.custom-btn:focus {
+  position: relative;
+  outline: none;
+  color: white; outline:none;
+}
