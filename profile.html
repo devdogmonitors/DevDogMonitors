@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DevDog | Add Project</title>
+    <title>DevDog | Dashboard</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -14,9 +14,7 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-	<style>
-		.page-heading .ibox {margin-bottom:0px;}
-	</style>
+
 </head>
 
 <body class="">
@@ -71,7 +69,7 @@
 
         </li>
 		 <li class="dropdown mega-dropdown">
-          <a href="addproject.html" class="dropdown-toggle col-a85751-hr" data-toggle="dropdown" id="project"><span class="fa fa-server pull-right"></span></a>
+          <a  class="dropdown-toggle col-a85751-hr" data-toggle="dropdown" id="project"><span class="fa fa-server pull-right"></span></a>
 
           <ul class="dropdown-menu mega-dropdown-menu row" id="project-view">
 			 <li class="col-sm-12">
@@ -85,7 +83,7 @@
 
           <ul class="dropdown-menu mega-dropdown-menu row" id="newproject-view">
 			 <li class="col-sm-12">
-				<h2>New Project <span style="font-size:13px;">Conntect & Upload</span></h2>
+				<h2>New Project</h2>
 			</li>
           </ul>
 
@@ -228,130 +226,287 @@
 
         </nav>
         </div>
-        <div class="wrapper wrapper-content">
-                <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-sm-12 nopaddingleft nopaddingright">
-                    <h2 class="addproject-heading">Add Project</h2>
-                    <!-- <ol class="breadcrumb">
-                        <li>
-                            <a href="index.html">Dashboard</a>
-                        </li>
-						<li>
-                            <a href="projects.html">Projects</a>
-                        </li>
-                        <li class="active">
-                            <strong>Add Project</strong>
-                        </li>
-                    </ol> -->
-                </div>
-				<div class="col-md-12 nopaddingleft nopaddingright">
-					<div class="ibox float-e-margins addproject">
-                            
-                            <div class="ibox-content ibox-content-add">
-                                <form class="form" action="#">
-								<div class="col-md-4 col-sm-4 col-md-4 bdr-right">
-									<h3>Project Details</h3>
-									<div class="form-group">
-										<label for="inputsm">Project Name</label>
-										<input class="form-control input-sm" id="inputsm" type="text">
-									  </div>
-									  <div class="form-group">
-										  <label for="comment">Description</label>
-										  <textarea class="form-control" rows="2" id="comment"></textarea>
-										</div>
-										<div class="form-group">
-										  <label for="comment">Tags (Optional)</label>
-										  <textarea class="form-control" rows="2" id="comment"></textarea>
-										</div>
-										<div class="form-group">
-										<label for="inputsm">Email</label>
-										<div class="icon-addon addon-md">
-											<input type="text" class="form-control input-sm" id="email" style="width:90%;float:left">
-											<span><i class="fa fa-plus btn-custom somebutton email-icon"></i></span>
-										</div>
+            <div class="wrapper wrapper-content index-wrapper">
+			<div class="container">
+				<div class="row">
+                    <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+						<div class="ibox float-e-margins projectmonitoring shw-all col-md-8 col-md-offset-2">
+                            <div class="ibox-title">
+                                <h5>Projects Under Monitoring</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">12</h1>
+                                <div class="font-bold">
+									<div class="">
+										<img src="img/monitor-em.png" class="img-responsive"/>
 									</div>
-									<div class="emailadd"></div>
-								 </div>
-								 <div class="col-md-8 col-sm-8 col-md-8">
-									<div class="row">
-										<div class="col-md-12 img-gallery">
-											<h3>Connect Source Code Repository(Comming soon) <i style="font-size:20px;" class="fa fa-question-circle" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Lorem Ipsum is simply dummy text of the printing and typesetting industry." data-original-title="" title=""></i></h3>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> GitHub <i class="fa fa-github-square"></i></label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Bitbucket <i class="fa fa-bitbucket"></i></label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Star Team <i class="fa fa-star"></i></label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Perforce </label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Mercurial </label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Subversion </label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Other </label></div>
-										</div>
-									</div>
-										
-										
-										
-										
-									<div class="clearfix"></div>
-									<hr class="custom-hr"/>
-									<div class="row">
-									  <div class="col-md-12 col-sm-12 col-lg-12">
-										<div class="form-group upload-width">
-											<input type="file" name="img[]" class="file">
-											<div class="input-group col-md-7 col-xs-12 fl-left">
-											  <span class="input-group-addon"><i class="fa fa-file"></i></span>
-											  <input type="text" class="form-control input-md" disabled placeholder="Upload File">
-											  <span class="input-group-btn">
-												<button class="browse custom-fileupload btn-sm" type="button"><i class="fa fa-search"></i> Search</button>
-											  </span>
-											</div>
-											<i class="fa fa-question-circle" style="position:absolute;top: 5px;padding-left: 7px;font-size: 20px;color: #202e47;" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Lorem Ipsum is simply dummy text of the printing and typesetting industry." data-original-title="" title=""></i>
-										</div>
-									  </div>
-									  </div>  
 								</div>
-								  
-								 
-								  
-								  <div class="col-md-12 text-center center-block">
-									  <button class="btn save-btn">Submit</button>
-									</div>
-									</form>
+                                
                             </div>
                         </div>
+					</div>
+					<div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+                        <div class="ibox float-e-margins vulnerabilities shw-all col-md-8 col-md-offset-2">
+                            <div class="ibox-title">
+                                <h5>Vulnerabilities</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">86</h1>
+                                <div class="font-bold">
+									<div class="">
+										<img src="img/vulnerabilities2-en.png" class="img-responsive"/>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+                        <div class="ibox float-e-margins upgrades shw-all col-md-8 col-md-offset-2">
+                            <div class="ibox-title">
+                                <h5>Upgrades Recommended</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">256</h1>
+                                <div class="font-bold">
+									<div class="">
+										<img src="img/upgrades-en.png" class="img-responsive"/>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
 				</div>
+				<div class="row">
+                    <div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+						<div class="urgent urgent-a85751">
+							<h2>Urgent</h2>
+							<hr/>
+							<div class="urgent-content scrollbar"  id="style-3">
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 1</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase" style="font-size:16px;"></i>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 2</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase"></i>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 3</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase" style="font-size:16px;"></i>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 4</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase" style="font-size:16px;"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+						<div class="urgent urgent-ffb86f">
+							<h2>Need Attention</h2>
+							<hr/>
+							<div class="urgent-content scrollbar"  id="style-3">
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 1</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase" style="font-size:16px;"></i>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 2</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase"></i>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 3</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase" style="font-size:16px;"></i>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 4</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase" style="font-size:16px;"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+						<div class="urgent urgent-81a87c">
+							<h2>Secure</h2>
+							<hr/>
+							<div class="urgent-content scrollbar"  id="style-3">
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 1</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											 <div class="i-checks"><label> <input type="checkbox" value=""> <i></i></label></div>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 2</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<div class="urtent-icon">
+											 <div class="i-checks"><label> <input type="checkbox" value=""> <i></i></label></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 3</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<div class="urtent-icon">
+											 <div class="i-checks"><label> <input type="checkbox" value=""> <i></i></label></div>
+										</div>
+										</div>
+									</div>
+								</div>
+								<div class="urgent-body">
+									<div class="urgent-body-inn">
+										<h3>Project 4</h3>
+										<div class="urgent-item">
+											<ul>
+												<li>Item One</li>
+												<li>Item Two</li>
+												<li>Item Three</li>
+											</ul>
+										</div>
+										<div class="urtent-icon">
+											<i class="fa fa-briefcase" style="font-size:16px;"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      
             </div>
         </div>
-        </div>
-        </div>
+    </div>
 
     <!-- Mainly scripts -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-	<!-- iCheck -->
+	<script src="js/plugins/iCheck/icheck.min.js"></script>
+<!-- iCheck -->
     <script src="js/plugins/iCheck/icheck.min.js"></script>
         
-    <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
+   
 	<script>
-	$(".somebutton").click(function () {
-	  $(".emailadd").append('<div class="form-group"><label for="inputsm">Email</label><div class="icon-addon addon-md"><input type="text" class="form-control input-sm" id="email" style="width:90%;float:left"><span><i class="fa fa-plus btn-custom somebutton email-icon"></i></span></div></div>');
-	});
-</script>
-<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-	
-	$('.popover-dismiss').popover({
-  trigger: 'focus'
-})
-});
-</script>
-<script>
 	$( document ).ready(function() {
-   $("#newproject").addClass( "col-453a49" );
-   $("#newproject-view").addClass( "col-453a49" );
-   $("#newproject-view").show();
+   $("#name").addClass( "col-587e93" );
+   $("#name-view").addClass( "col-587e93" );
+   $("#name-view").show();
 });
 	$("#dashboard").click(function(){ 
     $("#dashboard-view").addClass( "col-202e47" );
@@ -360,7 +515,8 @@ $(document).ready(function(){
 	$("#newproject").addClass( "col-2f4050" );
 	$("#name").addClass( "col-2f4050" );
 	$("#search").addClass( "col-2f4050" );
-	window.location.href="index.html"
+	window.location.href="addproject.html"
+	
 });
 $("#project").click(function(){ 
     $("#project-view").addClass( "col-a85751" );
@@ -388,13 +544,14 @@ $("#name").click(function(){
 	$("#search").addClass( "col-2f4050" );
 	$("#newproject").addClass( "col-2f4050" );
 	window.location.href="profile.html"
+	
 });
 $("#search").click(function(){ 
     $("#search-view").addClass( "col-ffb86f" );
 	$("#search").addClass( "col-ffb86f" );
 	$("#dashboard").addClass( "col-2f4050" );
 	$("#project").addClass( "col-2f4050" );
-	$("#name").addClass( "col-2f4050" );
+$("#name").addClass( "col-2f4050" );
 	$("#newproject").addClass( "col-2f4050" );
 	window.location.href="search.html"
 });
@@ -407,8 +564,8 @@ $("#search").click(function(){
 $(document).on('change', '.file', function(){
   $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
 });
-</script>	
-<script>
+</script>
+ <script>
             $(document).ready(function () {
                 $('.i-checks').iCheck({
                     checkboxClass: 'icheckbox_square-green',
