@@ -119,7 +119,7 @@
 .custom-btn:hover, .custom-btn:focus, .custom-btn:active, .custom-btn:visited {color:#fff;}
 
 /* Add Project CSS */
-.addproject{margin-top:10px; overflow:hidden;}
+.addproject{margin-top:0px; overflow:hidden;}
 .addproject .ibox-content {overflow:hidden; position:relative; padding-bottom:10px;}
 .addproject .ibox-title {background-color:#2dc3e8; color:#fff; padding:6px 10px;}
 .addproject .ibox-title h5 {margin:0px;}
