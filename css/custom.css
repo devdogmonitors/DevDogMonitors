@@ -691,13 +691,13 @@ textarea{resize:none !important}
 }
 @media only screen and (max-width: 424px) and (min-width: 375px){
 	.ibox-content h1 {
-    left: 127px;
+    left: 143px;
 }
 .vulnerabilities h1 {
-    left: 120px !important;
+    left: 140px !important;
 }
 .upgrades h1 {
-    left: 105px !important;
+    left: 124px !important;
 }
 .email-icon-w {width:91% !important;float:left}
 .email-icon {
