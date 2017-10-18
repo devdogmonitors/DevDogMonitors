@@ -811,11 +811,11 @@ body.mini-navbar .navbar-default .nav > li > a span{
 }
 }
 @media (max-width: 475px){
-	.fullwidth .navbar-default {
+	/* .fullwidth .navbar-default {
     background-color: #fff !important;
     border-color: #fff !important;
     border-radius: 0px;
-}
+} */
 	.prj-left {margin-left:0px !important;}
 .new-left {margin-left:0px !important;}
 .profile-left {margin-left:0px !important;}
