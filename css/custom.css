@@ -689,8 +689,8 @@ textarea{resize:none !important}
 }
 
 }
-@media only screen and (max-width: 424px) and (min-width: 375px){
-	.ibox-content h1 {
+@media only screen and (max-width: 767px) and (min-width: 411px){
+		.ibox-content h1 {
     left: 143px;
 }
 .vulnerabilities h1 {
@@ -699,6 +699,20 @@ textarea{resize:none !important}
 .upgrades h1 {
     left: 124px !important;
 }
+}
+@media only screen and (max-width: 410px) and (min-width: 375px){
+		.ibox-content h1 {
+    left: 129px;
+}
+.vulnerabilities h1 {
+    left: 123px !important;
+}
+.upgrades h1 {
+    left: 106px !important;
+}
+}
+@media only screen and (max-width: 424px) and (min-width: 375px){
+
 .email-icon-w {width:91% !important;float:left}
 .email-icon {
     right: 16px;
