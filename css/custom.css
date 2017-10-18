@@ -811,6 +811,16 @@ body.mini-navbar .navbar-default .nav > li > a span{
 }
 }
 @media (max-width: 475px){
+	.fullwidth .navbar-default {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    border-radius: 0px;
+}
+	.prj-left {margin-left:0px !important;}
+.new-left {margin-left:0px !important;}
+.profile-left {margin-left:0px !important;}
+.search-left {margin-left:0px !important;}
+.mbl-mrgt{margin-top:-8px !important}
 .menu-top{margin-top:50px;}
 .mrg-btm{margin-bottom:20px;}
 .mrg-left-0{margin-left:0px !important}
@@ -1181,7 +1191,7 @@ body.mini-navbar .navbar-default .nav > li > a span{
 .fullwidth .navbar-default .nav > li > .col-587e93-hr:hover{background: linear-gradient(to bottom, #8ab9d4 0%, #587e93 100%) !important;}
 .fullwidth .navbar-default .nav > li > .col-ffb86f-hr:hover{background: linear-gradient(to bottom, #eacaa8 0%, #ffb86f 100%) !important;}
 
-.col-2f4050 {background: linear-gradient(to bottom, #545454 0%, #222222 100%);}
+/* .col-2f4050 {background: linear-gradient(to bottom, #545454 0%, #222222 100%); */}
 .col-202e47 {background: linear-gradient(to bottom, #425982 0%, #202e47 100%);color:#fff !important;}
 .col-a85751 {background: linear-gradient(to bottom, #ea9791 0%, #a85751 100%);color:#fff !important;}
 .col-453a49 {background: linear-gradient(to bottom, #827188 0%, #453a49 100%);color:#fff !important;}
@@ -1193,4 +1203,5 @@ body.mini-navbar .navbar-default .nav > li > a span{
 .new-left {margin-left:133px;}
 .profile-left {margin-left:196px;}
 .search-left {margin-left:257px;}
+
 .email-icon-w {width:93%;float:left}
