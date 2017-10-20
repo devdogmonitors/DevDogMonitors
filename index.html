@@ -30,96 +30,26 @@
     </nav> -->
 
         <div id="" class="gray-bg">
-        <div class="row border-bottom">
-        <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
-        <div class="navbar-header" style="width:100%">
-            <!-- <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a> -->
-           <!--  <form role="search" class="navbar-form-custom" action="search_results.html">
-                <div class="form-group">
-                    <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
-                </div>
-            </form> -->
-			<div class="fullwidth ">
-				  <nav class="navbar navbar-default">
-   <!--  <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div> -->
-
-
-    <div class="js-navbar-collapse">
-      <ul class="nav navbar-nav menu-top mrg-left-0" style="display:inline-flex;">
-		<!-- <li>
-			<div class="logo">
-				<a href="index.html"><img src="img/color-3.png"/></a>
-			</div>
-		</li> -->
-        <li class="dropdown mega-dropdown">
-          <a href="index.html" class="dropdown-toggle col-202e47-hr" data-toggle="dropdown" id="dashboard"><span class="fa fa-dashboard pull-right"></span></a>
-
-          <ul class="dropdown-menu mega-dropdown-menu row mbl-mrgt" id="dashboard-view">
-			 <li class="col-sm-12">
-				<h2>Dashboard</h2>
-			</li>
-          </ul>
-
-        </li>
-		 <li class="dropdown mega-dropdown">
-          <a  class="dropdown-toggle col-a85751-hr" data-toggle="dropdown" id="project"><span class="fa fa-server pull-right"></span></a>
-
-          <ul class="dropdown-menu mega-dropdown-menu row prj-left" id="project-view">
-			 <li class="col-sm-12">
-				<h2>Project Portal</h2>
-			</li>
-          </ul>
-
-        </li>
-		 <li class="dropdown mega-dropdown">
-          <a href="projectportal.html" class="dropdown-toggle col-453a49-hr" data-toggle="dropdown" id="newproject"><span class="fa fa-plus pull-right"></span></a>
-
-          <ul class="dropdown-menu mega-dropdown-menu row new-left" id="newproject-view">
-			 <li class="col-sm-12">
-				<h2>New Project</h2>
-			</li>
-          </ul>
-
-        </li>
-		 <li class="dropdown mega-dropdown">
-          <a href="#" class="dropdown-toggle col-587e93-hr" data-toggle="dropdown" id="name"><span class="fa fa-user pull-right"></span></a>
-
-          <ul class="dropdown-menu mega-dropdown-menu row profile-left" id="name-view">
-			 <li class="col-sm-12">
-				<h2>Name</h2>
-			</li>
-          </ul>
-
-        </li>
-		<li class="dropdown mega-dropdown">
-          <a href="#" class="dropdown-toggle col-ffb86f-hr" data-toggle="dropdown" id="search"><span class="fa fa-search pull-right"></span></a>
-
-          <ul class="dropdown-menu mega-dropdown-menu row search-left" id="search-view">
-			 <li class="col-sm-12">
-				 <form role="search" class="navbar-form-custom" action="search_results.html">
-                <div class="form-group">
-                    <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
-                </div>
-            </form>
-			</li>
-          </ul>
-
-        </li>
-      </ul>
-
-    </div>
-    <!-- /.nav-collapse -->
-  </nav>
-			</div>
-        </div>
-            <ul class="nav navbar-top-links navbar-right rightmenu">
+        <div class="main-header-bg">
+			<div class="main-header">
+				<ul class="main-headerul">
+					<li class="col-202e47-hr col-202e47-hr-active">
+						<a href="index.html" class="" id="dashboard"><span class="fa fa-dashboard"></span></a>
+					</li>
+					<li class="col-a85751-hr">
+						<a href="projectportal.html" class="" id="project"><span class="fa fa-server"></span></a>
+					</li>
+					<li class="col-453a49-hr">
+						<a href="addproject.html" class="" id="newproject"><span class="fa fa-plus"></span></a>
+					</li>
+					<li class="col-587e93-hr">
+						<a href="profile.html" class="" id="name"><span class="fa fa-user"></span></a>
+					</li>
+					<li class="col-ffb86f-hr">
+						<a href="search.html" class="" id="search"><span class="fa fa-search"></span></a>
+					</li>
+				</ul>
+				<ul class="nav navbar-top-links navbar-right rightmenu">
                 <li class="dropdown">
                     <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                         <i class="fa fa-envelope"></i>  <span class="label label-warning">16</span>
@@ -223,9 +153,15 @@
                     </a>
                 </li>
             </ul>
-
-        </nav>
-        </div>
+			</div>
+			<div>
+			
+			</div>
+		</div>
+		<div class="subheader">
+			<h2>Dashboard</h2>
+		</div>
+		
             <div class="wrapper wrapper-content index-wrapper">
 			<div class="container">
 				<div class="row">
@@ -507,7 +443,7 @@
     <script src="js/plugins/iCheck/icheck.min.js"></script>
         
    
-	<script>
+	<!-- <script>
 	$( document ).ready(function() {
    $("#dashboard").addClass( "col-202e47" );
    $("#dashboard-view").addClass( "col-202e47" );
@@ -560,7 +496,7 @@ $("#search").click(function(){
 	$("#newproject").addClass( "col-2f4050" );
 	window.location.href="search.html"
 });
-</script>
+</script> -->
 <script>
 	$(document).on('click', '.browse', function(){
   var file = $(this).parent().parent().parent().find('.file');
