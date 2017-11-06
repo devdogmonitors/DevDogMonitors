@@ -6,7 +6,7 @@ body{    background-color: #e6e6e6;}
     border-color: #1c1c1c;
     border-radius: 0px;}
 .main-headerul {list-style:none;padding-left:0px;margin-bottom:0px;}
-.main-headerul li{display:inline-flex;background-color: #212224;}
+.main-headerul li{display:inline-flex;background-color: #212224;margin-left: -4px;}
 .main-headerul li a{color:#b5b5b5;padding:20px 25px;}
 	
 .main-headerul  .col-202e47-hr:hover{background: linear-gradient(to bottom, #425982 0%, #202e47 100%);
