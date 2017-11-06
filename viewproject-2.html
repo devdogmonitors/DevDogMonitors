@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DevDog | Add Project</title>
+    <title>DevDog | View Project</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -38,10 +38,10 @@
 					<li class="col-202e47-hr">
 						<a href="index.html" class="" id="dashboard"><span class="fa fa-dashboard"></span></a>
 					</li>
-					<li class="col-a85751-hr">
+					<li class="col-a85751-hr col-a85751-hr-active">
 						<a href="projectportal.html" class="" id="project"><span class="fa fa-server"></span></a>
 					</li>
-					<li class="col-453a49-hr col-453a49-hr-active">
+					<li class="col-453a49-hr">
 						<a href="addproject.html" class="" id="newproject"><span class="fa fa-plus"></span></a>
 					</li>
 					<li class="col-587e93-hr">
@@ -160,107 +160,64 @@
 			
 			</div>
 		</div>
-		<div class="subheader3">
-			<h2>New Project <span style="font-size:13px;">Conntect &amp; Upload</span></h2>
+		<div class="subheader2">
+			<h2>Project Portal</h2>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<ol class="breadcrumb">
+					<li>
+						<a href="projectportal.html">Projects Portal</a>
+					</li>
+					<li class="active">
+						<strong>View Project</strong>
+					</li>
+				</ol>
+			</div>
 		</div>
         <div class="wrapper wrapper-content">
                 <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-sm-12 nopaddingleft nopaddingright">
-                    <h2 class="addproject-heading">Add Project</h2>
-                    <!-- <ol class="breadcrumb">
-                        <li>
-                            <a href="index.html">Dashboard</a>
-                        </li>
-						<li>
-                            <a href="projects.html">Projects</a>
-                        </li>
-                        <li class="active">
-                            <strong>Add Project</strong>
-                        </li>
-                    </ol> -->
-                </div>
-				<div class="col-md-12 nopaddingleft nopaddingright">
-					<div class="ibox float-e-margins addproject">
-                            
-                            <div class="ibox-content ibox-content-add">
-                                <form class="form" action="#">
-								<div class="col-md-4 col-sm-4 col-md-4 bdr-right">
-									<h3>Project Details</h3>
-									<div class="form-group">
-										<label for="inputsm">Project Name</label>
-										<input class="form-control input-sm" id="inputsm" type="text">
-									  </div>
-									  <div class="form-group">
-										  <label for="comment">Description</label>
-										  <textarea class="form-control" rows="2" id="comment"></textarea>
-										</div>
-										<div class="form-group">
-										  <label for="comment">Tags (Optional)</label>
-										  <textarea class="form-control" rows="2" id="comment"></textarea>
-										</div>
-										<div class="form-group">
-										  <label for="sel1">Stack/Extention:</label>
-										  <select class="form-control" id="sel1">
-											<option>Stack-1</option>
-											<option>Stack-2</option>
-											<option>Stack-3</option>
-											<option>Stack-4</option>
-										  </select>
-										</div>
-										<div class="form-group">
-										<label for="inputsm">Email</label>
-										<div class="icon-addon addon-md">
-											<input type="text" class="form-control input-sm email-icon-w" id="email">
-											<span><i class="fa fa-plus btn-custom somebutton email-icon"></i></span>
-										</div>
-									</div>
-									<div class="emailadd"></div>
-								 </div>
-								 <div class="col-md-8 col-sm-8 col-md-8">
-									<div class="row">
-										<div class="col-md-12 img-gallery">
-											<h3>Connect Source Code Repository(Comming soon) <i style="font-size:20px;" class="fa fa-question-circle" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Lorem Ipsum is simply dummy text of the printing and typesetting industry." data-original-title="" title=""></i></h3>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> GitHub <i class="fa fa-github-square"></i></label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Bitbucket <i class="fa fa-bitbucket"></i></label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Star Team <i class="fa fa-star"></i></label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Perforce </label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Mercurial </label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Subversion </label></div>
-											<div class="i-checks"><label class=""> <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <i></i> Other </label></div>
-										</div>
-									</div>
-										
-										
-										
-										
-									<div class="clearfix"></div>
-									<hr class="custom-hr"/>
-									<div class="row">
-									  <div class="col-md-12 col-sm-12 col-lg-12">
-										<div class="form-group upload-width">
-											<input type="file" name="img[]" class="file">
-											<div class="input-group col-md-7 col-xs-12 fl-left">
-											  <span class="input-group-addon"><i class="fa fa-file"></i></span>
-											  <input type="text" class="form-control input-md" disabled placeholder="Upload File">
-											  <span class="input-group-btn">
-												<button class="browse custom-fileupload btn-sm" type="button"><i class="fa fa-search"></i> Search</button>
-											  </span>
-											</div>
-											<i class="fa fa-question-circle" style="position:absolute;top: 5px;padding-left: 7px;font-size: 20px;color: #202e47;" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Lorem Ipsum is simply dummy text of the printing and typesetting industry." data-original-title="" title=""></i>
-										</div>
-									  </div>
-									  </div>  
-								</div>
-								  
-								 
-								  
-								  <div class="col-md-12 text-center center-block">
-									  <button class="btn save-btn">Submit</button>
-									</div>
-									</form>
-                            </div>
-                        </div>
+				
+					<div class="appname">
+						<h3 class="col-md-12">Customer Care App</h3>
+						<div class="col-md-12 table-responsive">
+					<table class="table table-striped prj-table" border-spacing="2">
+						<thead>
+							<tr>
+								<th>Package</th>
+								<th>Version</th>
+								<th>Latest</th>
+								<th>Status</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Commons-Fileutils</td>
+								<td>1.1</td>
+								<td>2.2</td>
+								<td><div class="redbg center-block"></div></td>
+								<td>Password detect vulnerability</td>
+							</tr>
+							<tr>
+								<td>Commons-Fileutils</td>
+								<td>1.1</td>
+								<td>2.2</td>
+								<td><div class="greenbg center-block"></div></td>
+								<td>Password detect vulnerability</td>
+							</tr>
+							<tr>
+								<td>Commons-Fileutils</td>
+								<td>1.1</td>
+								<td>2.2</td>
+								<td><div class="orangebg center-block"></div></td>
+								<td>Password detect vulnerability</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
+					</div>
+				
             </div>
         </div>
 		<div class="footer">
@@ -281,7 +238,14 @@
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 	<!-- iCheck -->
     <script src="js/plugins/iCheck/icheck.min.js"></script>
-        
+        <script>
+            $(document).ready(function () {
+                $('.i-checks').iCheck({
+                    checkboxClass: 'icheckbox_square-green',
+                    radioClass: 'iradio_square-green',
+                });
+            });
+        </script>
     <!-- Custom and plugin javascript -->
     <script src="js/inspinia.js"></script>
     <script src="js/plugins/pace/pace.min.js"></script>
@@ -290,15 +254,7 @@
 	  $(".emailadd").append('<div class="form-group"><label for="inputsm">Email</label><div class="icon-addon addon-md"><input type="text" class="form-control input-sm" id="email" style="width:90%;float:left"><span><i class="fa fa-plus btn-custom somebutton email-icon"></i></span></div></div>');
 	});
 </script>
-<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-	
-	$('.popover-dismiss').popover({
-  trigger: 'focus'
-})
-});
-</script>
+
 <script>
 	$(document).on('click', '.browse', function(){
   var file = $(this).parent().parent().parent().find('.file');
@@ -307,14 +263,6 @@ $(document).ready(function(){
 $(document).on('change', '.file', function(){
   $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
 });
-</script>
-<script>
-            $(document).ready(function () {
-                $('.i-checks').iCheck({
-                    checkboxClass: 'icheckbox_square-green',
-                    radioClass: 'iradio_square-green',
-                });
-            });
-        </script>
+</script>	
 </body>
 </html>
