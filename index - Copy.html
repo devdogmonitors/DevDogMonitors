@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DevDog | Project Portal</title>
+    <title>DevDog | Dashboard</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -14,9 +14,7 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-	<style>
-		.page-heading .ibox {margin-bottom:0px;}
-	</style>
+
 </head>
 
 <body class="">
@@ -38,10 +36,10 @@
 					<li><img src="img/logo-final.png" class="img-responsive logo-img" /></li>
 				</ul>
 				<ul class="main-headerul">
-					<li class="col-202e47-hr">
+					<li class="col-202e47-hr col-202e47-hr-active">
 						<a href="index.html" class="" id="dashboard"><span class="fa fa-dashboard"></span></a>
 					</li>
-					<li class="col-a85751-hr col-a85751-hr-active">
+					<li class="col-a85751-hr">
 						<a href="projectportal.html" class="" id="project"><span class="fa fa-server"></span></a>
 					</li>
 					<li class="col-453a49-hr">
@@ -163,19 +161,59 @@
 			
 			</div>
 		</div>
-		<div class="subheader2">
-			<h2>Project Portal</h2>
+		<div class="subheader">
+			<h2>Dashboard</h2>
 		</div>
-        <div class="wrapper wrapper-content">
+		
+            <div class="wrapper wrapper-content index-wrapper22">
+			<div class="card-grid">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+							<div class="card-5">
+								<div class="card-5-img">
+									<img src="img/monitor-em.png" class="img-responsive">
+								</div>
+								<h4 class="card-h4-p">12</h4>
+								<div class="card-5-content">
+									<h5>Projects Under Monitoring</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+							<div class="card-5">
+								<div class="card-5-img">
+									<img src="img/vulnerabilities2-en.png" class="img-responsive">
+								</div>
+								<h4 class="card-h4-v">86</h4>
+								<div class="card-5-content">
+									<h5>Vulnerabilities</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-4 col-xs-12 col-md-4">
+							<div class="card-5">
+								<div class="card-5-img">
+									<img src="img/upgrades-en.png" class="img-responsive">
+								</div>
+								<h4 class="card-h4-u">256</h4>
+								<div class="card-5-content">
+									<h5>Upgrades Recommended</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="container">
                 <div class="row wrapper border-bottom white-bg page-heading">
 				<div class="col-md-12 nopaddingleft nopaddingright">
 					<div class="ibox float-e-margins addproject">
-                            <div class="ibox-content ibox-content-add">
+                            <div class="ibox-content ibox-content-v ibox-content-add">
 								<div class="col-md-4">
 									<div class="undermonitoring mrg-btm">
 										<div class="card-heading">
-											<h3>Projects Under Monitoring</h3>
+											<h3>Urgent</h3>
 										</div>
 										<div class="card-body" id="monitorscroll">
 											<div class="card">
@@ -237,7 +275,7 @@
 								<div class="col-md-4">
 									<div class="vulnerabilities1 mrg-btm">
 										<div class="card-heading">
-											<h3>Vulnerabilities</h3>
+											<h3>Need Attention</h3>
 										</div>
 										<div class="card-body" id="vulnerabilitiesscroll">
 											<div class="card">
@@ -299,7 +337,7 @@
 								<div class="col-md-4">
 									<div class="needtofixed mrg-btm">
 										<div class="card-heading">
-											<h3>Upgrades Recommended</h3>
+											<h3>Secure</h3>
 										</div>
 										<div class="card-body" id="needtofixedscroll">
 											<div class="card">
@@ -362,8 +400,9 @@
 				</div>
             </div>
 			</div>
-        </div>
-		<div class="footer">
+      
+            </div>
+			<div class="footer">
                     <!-- <div class="pull-right">
                         10GB of <strong>250GB</strong> Free.
                     </div> -->
@@ -372,32 +411,19 @@
                     </div>
                 </div>
         </div>
-        </div>
+    </div>
 
     <!-- Mainly scripts -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-	<!-- iCheck -->
+	<script src="js/plugins/iCheck/icheck.min.js"></script>
+<!-- iCheck -->
     <script src="js/plugins/iCheck/icheck.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('.i-checks').iCheck({
-                    checkboxClass: 'icheckbox_square-green',
-                    radioClass: 'iradio_square-green',
-                });
-            });
-        </script>
-    <!-- Custom and plugin javascript -->
-    <script src="js/inspinia.js"></script>
-    <script src="js/plugins/pace/pace.min.js"></script>
-	<script>
-	$(".somebutton").click(function () {
-	  $(".emailadd").append('<div class="form-group"><label for="inputsm">Email</label><div class="icon-addon addon-md"><input type="text" class="form-control input-sm" id="email" style="width:90%;float:left"><span><i class="fa fa-plus btn-custom somebutton email-icon"></i></span></div></div>');
-	});
-</script>
-
+        
+   
+	
 <script>
 	$(document).on('click', '.browse', function(){
   var file = $(this).parent().parent().parent().find('.file');
@@ -406,6 +432,14 @@
 $(document).on('change', '.file', function(){
   $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
 });
-</script>	
+</script>
+ <script>
+            $(document).ready(function () {
+                $('.i-checks').iCheck({
+                    checkboxClass: 'icheckbox_square-green',
+                    radioClass: 'iradio_square-green',
+                });
+            });
+        </script>
 </body>
 </html>

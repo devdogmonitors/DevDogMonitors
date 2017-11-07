@@ -1,7 +1,46 @@
 body{    background-color: #e6e6e6;}
+.logo-img{margin:0 7px}
 .wrapper-content {
     padding: 20px 0px 40px;
 }
+/*card-5 styles*/
+.card-5 {
+    background-color: #3e3e3e;
+	height:100px;
+	    box-shadow: 0 0 10px #080000;
+		margin-bottom: 20px;
+}
+ .card-5-img {
+    background-color: #292929;
+    padding: 10px;
+    width: 100px;
+	float:left;
+}
+.card-5-content {text-align:center;}
+.card-5-content h5{color:#fff;font-size:18px;padding-top:40px;}
+.card-h4-p{
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    left: 50px;
+    top: 28px;
+}
+.card-h4-v {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    left: 45px;
+    top: 32px;
+}
+.card-h4-u {
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    left: 40px;
+    top: 14px;
+}
+.ibox-content-v{    padding: 15px 0px 20px 0px !important;}
+/*card-5 styles*/
 .main-header-bg{background-color: #1c1c1c;
     border-color: #1c1c1c;
     border-radius: 0px;}
@@ -1124,6 +1163,7 @@ body.mini-navbar .navbar-default .nav > li > a span{
 .new-left {margin-left:133px;}
 .profile-left {margin-left:196px;}
 .search-left {margin-left:257px;} */
+
 .prj-left {margin-left:65px;}
 .new-left {margin-left:133px;}
 .profile-left {margin-left:196px;}
@@ -1139,7 +1179,7 @@ body.mini-navbar .navbar-default .nav > li > a span{
     border-right: 1px dashed #587e93;
 }
 .footer {
-    
+    color: #fff;
     border-top: 1px solid #e7eaec;
     bottom: 0;
     left: 0;
